@@ -1,8 +1,6 @@
 //
 //  AppDelegate.swift
 //  ItunesSearchAssignment
-//
-//  Created by Quinto Technologies on 25/04/18.
 //  Copyright © 2018 HarpreetSingh. All rights reserved.
 //
 
