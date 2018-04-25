@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		07373DE220908A2C007DA918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373DE120908A2C007DA918 /* AppDelegate.swift */; };
-		07373DE420908A2C007DA918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373DE320908A2C007DA918 /* ViewController.swift */; };
+		07373DE420908A2C007DA918 /* MusicSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373DE320908A2C007DA918 /* MusicSearchViewController.swift */; };
 		07373DE720908A2C007DA918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07373DE520908A2C007DA918 /* Main.storyboard */; };
 		07373DE920908A2C007DA918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07373DE820908A2C007DA918 /* Assets.xcassets */; };
 		07373DEC20908A2C007DA918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07373DEA20908A2C007DA918 /* LaunchScreen.storyboard */; };
 		07373DF720908A2C007DA918 /* ItunesSearchAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373DF620908A2C007DA918 /* ItunesSearchAssignmentTests.swift */; };
+		07373E0520909E4A007DA918 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E0420909E4A007DA918 /* EndPointType.swift */; };
+		07373E0720909EF4007DA918 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E0620909EF4007DA918 /* HTTPMethod.swift */; };
+		07373E092090A099007DA918 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E082090A099007DA918 /* HTTPTask.swift */; };
+		07373E0C2090A19C007DA918 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E0B2090A19C007DA918 /* ParameterEncoding.swift */; };
+		07373E0F2090A262007DA918 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E0E2090A262007DA918 /* NetworkError.swift */; };
+		07373E112090A2E0007DA918 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E102090A2E0007DA918 /* URLParameterEncoder.swift */; };
+		07373E132090A5B0007DA918 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E122090A5B0007DA918 /* JSONParameterEncoder.swift */; };
+		07373E152090A6ED007DA918 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E142090A6ED007DA918 /* NetworkRouter.swift */; };
+		07373E172090A80F007DA918 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E162090A80F007DA918 /* Router.swift */; };
+		07373E192090B043007DA918 /* MusicSearchEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E182090B043007DA918 /* MusicSearchEndPoint.swift */; };
+		07373E1C2090B47C007DA918 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E1B2090B47C007DA918 /* NetworkManager.swift */; };
+		07373E1F2090B9B3007DA918 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E1E2090B9B3007DA918 /* MusicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +40,7 @@
 /* Begin PBXFileReference section */
 		07373DDE20908A2C007DA918 /* ItunesSearchAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesSearchAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07373DE120908A2C007DA918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07373DE320908A2C007DA918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07373DE320908A2C007DA918 /* MusicSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchViewController.swift; sourceTree = "<group>"; };
 		07373DE620908A2C007DA918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07373DE820908A2C007DA918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07373DEB20908A2C007DA918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +48,18 @@
 		07373DF220908A2C007DA918 /* ItunesSearchAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItunesSearchAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07373DF620908A2C007DA918 /* ItunesSearchAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesSearchAssignmentTests.swift; sourceTree = "<group>"; };
 		07373DF820908A2C007DA918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07373E0420909E4A007DA918 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		07373E0620909EF4007DA918 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		07373E082090A099007DA918 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		07373E0B2090A19C007DA918 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		07373E0E2090A262007DA918 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		07373E102090A2E0007DA918 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		07373E122090A5B0007DA918 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		07373E142090A6ED007DA918 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		07373E162090A80F007DA918 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		07373E182090B043007DA918 /* MusicSearchEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchEndPoint.swift; sourceTree = "<group>"; };
+		07373E1B2090B47C007DA918 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		07373E1E2090B9B3007DA918 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +101,10 @@
 		07373DE020908A2C007DA918 /* ItunesSearchAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				07373DE120908A2C007DA918 /* AppDelegate.swift */,
-				07373DE320908A2C007DA918 /* ViewController.swift */,
+				07373E1D2090B969007DA918 /* Model */,
+				07373E0120909DCD007DA918 /* Network */,
+				07373E212090DE7C007DA918 /* AppDelegate */,
+				07373E202090DE63007DA918 /* View */,
 				07373DE520908A2C007DA918 /* Main.storyboard */,
 				07373DE820908A2C007DA918 /* Assets.xcassets */,
 				07373DEA20908A2C007DA918 /* LaunchScreen.storyboard */,
@@ -94,6 +120,88 @@
 				07373DF820908A2C007DA918 /* Info.plist */,
 			);
 			path = ItunesSearchAssignmentTests;
+			sourceTree = "<group>";
+		};
+		07373E0120909DCD007DA918 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				07373E1A2090B467007DA918 /* Manager */,
+				07373E0D2090A243007DA918 /* Error */,
+				07373E0A2090A17B007DA918 /* Encoding */,
+				07373E0320909E1B007DA918 /* Service */,
+				07373E0220909DEF007DA918 /* EndPoint */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		07373E0220909DEF007DA918 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				07373E182090B043007DA918 /* MusicSearchEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		07373E0320909E1B007DA918 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				07373E0420909E4A007DA918 /* EndPointType.swift */,
+				07373E0620909EF4007DA918 /* HTTPMethod.swift */,
+				07373E082090A099007DA918 /* HTTPTask.swift */,
+				07373E142090A6ED007DA918 /* NetworkRouter.swift */,
+				07373E162090A80F007DA918 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		07373E0A2090A17B007DA918 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				07373E0B2090A19C007DA918 /* ParameterEncoding.swift */,
+				07373E102090A2E0007DA918 /* URLParameterEncoder.swift */,
+				07373E122090A5B0007DA918 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		07373E0D2090A243007DA918 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				07373E0E2090A262007DA918 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		07373E1A2090B467007DA918 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				07373E1B2090B47C007DA918 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		07373E1D2090B969007DA918 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07373E1E2090B9B3007DA918 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07373E202090DE63007DA918 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07373DE320908A2C007DA918 /* MusicSearchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07373E212090DE7C007DA918 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				07373DE120908A2C007DA918 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +307,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07373DE420908A2C007DA918 /* ViewController.swift in Sources */,
+				07373E192090B043007DA918 /* MusicSearchEndPoint.swift in Sources */,
+				07373E1F2090B9B3007DA918 /* MusicModel.swift in Sources */,
+				07373E172090A80F007DA918 /* Router.swift in Sources */,
+				07373E112090A2E0007DA918 /* URLParameterEncoder.swift in Sources */,
+				07373E1C2090B47C007DA918 /* NetworkManager.swift in Sources */,
+				07373E0C2090A19C007DA918 /* ParameterEncoding.swift in Sources */,
+				07373E0F2090A262007DA918 /* NetworkError.swift in Sources */,
+				07373E0720909EF4007DA918 /* HTTPMethod.swift in Sources */,
+				07373DE420908A2C007DA918 /* MusicSearchViewController.swift in Sources */,
+				07373E132090A5B0007DA918 /* JSONParameterEncoder.swift in Sources */,
 				07373DE220908A2C007DA918 /* AppDelegate.swift in Sources */,
+				07373E152090A6ED007DA918 /* NetworkRouter.swift in Sources */,
+				07373E0520909E4A007DA918 /* EndPointType.swift in Sources */,
+				07373E092090A099007DA918 /* HTTPTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
